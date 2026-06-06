@@ -26,14 +26,15 @@ ros2 launch turtle_controller turtle_controller.launch.py
 ```
 
 ## 停止
+
 ```bash
 pkill -SIGINT -u "$(whoami)" -f "turtlesim_node|turtle_controller|rviz2"
 ```
 
 ## 参数
 
+参数文件位于 `turtle_controller/config/turtle_controller.yaml` 参数名称：`config_file`，自定义参数文件如下
 
-参数名称：`config_file`
 ```bash
 ros2 launch turtle_controller turtle_controller.launch.py config_file:=/absolute/path/to/your.yaml
 ```

@@ -1,6 +1,5 @@
 figure_eight_controller:
   ros__parameters:
-    # Minimal parameters: linear and angular speed (angular sign flips each circle)
     circle_linear_speed: 2.0
     circle_angular_speed: 1.0
 

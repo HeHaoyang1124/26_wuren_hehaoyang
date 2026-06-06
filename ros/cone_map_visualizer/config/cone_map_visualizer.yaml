@@ -1,0 +1,8 @@
+cone_map_visualizer:
+  ros__parameters:
+    map_topic: /estimation/slam/map
+    marker_topic: /cone_map_markers
+    fixed_frame: world
+    cone_marker_size: 0.25
+    cone_alpha: 0.95
+
