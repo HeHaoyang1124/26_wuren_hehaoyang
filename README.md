@@ -5,3 +5,4 @@
 2. 搜索算法与机器学习
 3. DeepLearning
 4. ROS
+5. Control
